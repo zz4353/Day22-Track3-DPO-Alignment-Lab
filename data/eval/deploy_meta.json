@@ -1,0 +1,10 @@
+{
+  "compute_tier": "T4",
+  "base_model": "unsloth/Qwen2.5-3B-bnb-4bit",
+  "merged_path": "/tmp/lab22-merged-fp16-clean",
+  "gguf_path": "/tmp/lab22-gguf-clean/Qwen2.5-3B.Q4_K_M.gguf",
+  "gguf_size_mb": 1929.9,
+  "quantization": "q4_k_m",
+  "smoke_prompt": "Giải thích ngắn gọn (3 câu) cách thuật toán Bubble sort hoạt động.",
+  "smoke_response": "Trong thuật toán Bubble sort, dữ liệu được sắp xếp bằng cách so sánh hai phần tử liên tiếp và nếu chúng không nằm trong thứ tự đúng, chúng được sắp xếp lại. Quá trình này được lặp lại cho đến khi không còn phần tử nào cần được sắp xếp. Trong mỗi vòng lặp, phần tử cuối cùng chưa được sắp xếp được so sánh với phần tử trước nó, và nếu nó lớn hơn, hai phần tử được đổi vị trí. Quá trình này được lặp lại cho đến khi không còn phần tử nào cần được sắp xếp. Điều này tiếp tục cho đến khi không còn phần tử nào cần được sắp xếp. Trong thuật toán Bubble sort, dữ liệu được sắp xếp bằng cách so sánh hai phần tử liên tiếp và nếu chúng không nằm trong thứ tự đúng, chúng được sắp xếp lại. Quá trình này được lặp lại cho đến khi không còn phần tử nào cần được sắp xếp. Trong mỗi vòng l"
+}

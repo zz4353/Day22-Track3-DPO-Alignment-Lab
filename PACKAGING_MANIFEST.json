@@ -1,0 +1,48 @@
+{
+  "source": "/content/lab22",
+  "main_zip_output": "/kaggle/working/lab22_partial_submit_no_gguf",
+  "main_zip": "/kaggle/working/lab22_partial_submit_no_gguf.zip",
+  "gguf_output": "/kaggle/working/lab22_gguf_files",
+  "copied": [
+    "adapters/sft-mini",
+    "adapters/dpo",
+    "data/pref/train.parquet",
+    "data/pref/eval.parquet",
+    "data/eval",
+    "submission/screenshots"
+  ],
+  "missing_sources": [
+    "submission/REFLECTION.md"
+  ],
+  "notebooks_copied": [],
+  "present_required": [
+    "adapters/sft-mini/adapter_config.json",
+    "adapters/dpo/adapter_config.json",
+    "adapters/dpo/dpo_metrics.json",
+    "data/pref/train.parquet",
+    "data/eval/prompts.json",
+    "data/eval/side_by_side.jsonl",
+    "data/eval/judge_results.json",
+    "submission/screenshots/02-sft-loss.png",
+    "submission/screenshots/03-dpo-reward-curves.png",
+    "submission/screenshots/04-side-by-side-table.png"
+  ],
+  "missing_required": [
+    "data/eval/benchmark_results.json",
+    "submission/REFLECTION.md",
+    "submission/screenshots/01-setup-gpu.png",
+    "submission/screenshots/05-judge-output.png",
+    "submission/screenshots/06-gguf-smoke.png",
+    "submission/screenshots/07-benchmark-comparison.png"
+  ],
+  "gguf_status": {
+    "exists": true,
+    "path": "/kaggle/working/lab22_gguf_files/lab22-dpo-Q4_K_M.gguf",
+    "size_gb": 1.797
+  },
+  "screenshots": [
+    "02-sft-loss.png",
+    "03-dpo-reward-curves.png",
+    "04-side-by-side-table.png"
+  ]
+}
